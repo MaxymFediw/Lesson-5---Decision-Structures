@@ -103,9 +103,14 @@ namespace Lesson_5___Decision_Structures
             }
 
 
+            int person1 = 15, person2 = 27, person3 = 15;
 
+            if((person1==person3 && person1 !=person2) || (person1==person2 && person1 !=person3)) 
+            {
+                Console.WriteLine("2 people are the same age!");
+            }
             
-
+            
 
 
 
